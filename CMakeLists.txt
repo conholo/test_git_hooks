@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.26)
+set(NAME git_hooks_test)
+project(${NAME})
+set(CMAKE_CXX_STANDARD 17)
+add_executable(${NAME} main.cpp)
